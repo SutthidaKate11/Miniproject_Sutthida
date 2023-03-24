@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505"
+    tools:context=".Detail">
+
+    <Button
+        android:id="@+id/bCancle"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:text="Cancle"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittEmail"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F5F7F8"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bt_edittext"
+        android:ems="10"
+        android:hint="Full Name"
+        android:drawableLeft="@drawable/ic_user"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOrder"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/edittEmail"
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bt_edittext"
+        android:ems="10"
+        android:hint="Email Address"
+        android:drawableLeft="@drawable/ic_email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#0C0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editName"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <Button
+        android:id="@+id/bConfirm"
+        android:layout_width="136dp"
+        android:layout_height="54dp"
+        android:text="CONFIRM"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittEmail"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bt_edittext"
+        android:ems="10"
+        android:hint="Phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittEmail"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="378dp"
+        android:layout_height="318dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769"
+        app:srcCompat="@drawable/bg_cf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirm"
+    android:background="@drawable/bg00">
+
+    <TextView
+        android:id="@+id/showOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F3F5F6"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/showName"
+        android:layout_width="383dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt_edittext"
+        android:text="name"
+        android:drawableLeft="@drawable/ic_user"
+        android:textAlignment="center"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showOrder"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/showEmail"
+        android:layout_width="381dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt_edittext"
+        android:text="email"
+        android:drawableLeft="@drawable/ic_email"
+        android:textAlignment="center"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showName"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/showPhone"
+        android:layout_width="381dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt_edittext"
+        android:text="phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:textAlignment="center"
+        android:textColor="#121010"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showEmail"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/Cback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showPhone"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <Button
+        android:id="@+id/Cmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menu"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toEndOf="@+id/Cback"
+        app:layout_constraintTop_toBottomOf="@+id/showPhone"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="352dp"
+        android:layout_height="370dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        app:srcCompat="@drawable/bg_cf1" />
+
+    <Button
+        android:id="@+id/Chome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Home"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
